@@ -1,122 +1,121 @@
 * {
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
-body{
-    background-color: #ECEDF2;
-    margin: 0;
+body {
+  background-color: #ecedf2;
+  margin: 0;
 }
-.collectives{
-    width: calc(100% - 90px);
-    margin: 0px 45px 10px 45px;
-    border-radius: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #ffffff;
+.collectives {
+  width: calc(100% - 90px);
+  margin: 0px 45px 10px 45px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #ffffff;
 }
-.collectives__title{
-   text-align: center; 
+.collectives__title {
+  text-align: center;
 }
-.collectives__title h1{
-    font-size: 118px;
-    margin: 20px auto;
-    letter-spacing: -6%;
-    font-weight: 500;
-    color: #28373A;
+.collectives__title h1 {
+  font-size: 118px;
+  margin: 20px auto;
+  letter-spacing: -6%;
+  font-weight: 500;
+  color: #28373a;
 }
-.collectives__title p{
-    width: 500px;
-    font-weight: 400;
-    font-size: 18px;
+.collectives__title p {
+  width: 500px;
+  font-weight: 400;
+  font-size: 18px;
 }
-.collectives__cards{
-    width: calc(100% - 40px);
-    margin: 40px;
-    margin-right: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
+.collectives__cards {
+  width: calc(100% - 40px);
+  margin: 40px;
+  margin-right: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.collectives__card{
-    width: 350px;
-    border-radius: 10px;
-    background-color: #ECEDF2;
-    padding: 20px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    transition: .3s;
+.collectives__card {
+  width: 350px;
+  border-radius: 10px;
+  background-color: #ecedf2;
+  padding: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  transition: 0.3s;
 }
-.collectives__card_link{
-    text-decoration: none;
+.collectives__card_link {
+  text-decoration: none;
 }
-.collectives__card img{
-    width: 100%;
-    border-radius: 10px;
+.collectives__card img {
+  width: 100%;
+  border-radius: 10px;
 }
-.collectives__card_name{
-    display: flex;
-    flex-wrap: nowrap;
-    margin-bottom: 10px;
+.collectives__card_name {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 10px;
 }
-.collectives__card_name p{
-    margin: 0 20px 0 0;
-    font-size: 28px;
-    transition: .3s;
-    color: #28373A;
+.collectives__card_name p {
+  margin: 0 20px 0 0;
+  font-size: 28px;
+  transition: 0.3s;
+  color: #28373a;
 }
-.collectives__card_arrow{
-    transition: .3s;
+.collectives__card_arrow {
+  transition: 0.3s;
 }
-.collectives__card_arrow path{
-    fill: #28373A;
-    transition: .3s;
+.collectives__card_arrow path {
+  fill: #28373a;
+  transition: 0.3s;
 }
 .collectives__card:hover {
-    background-color: #584974;
-    transition: .3s;
+  background-color: #584974;
+  transition: 0.3s;
 }
-.collectives__card:hover p{
-    color: white;
-    transition: .3s;
+.collectives__card:hover p {
+  color: white;
+  transition: 0.3s;
 }
-.collectives__card:hover .collectives__card_arrow{
-    transform: rotate(-45deg);
-    transition: .3s;
+.collectives__card:hover .collectives__card_arrow {
+  transform: rotate(-45deg);
+  transition: 0.3s;
 }
-.collectives__card:hover .collectives__card_arrow path{
-    fill: white;
-    transition: .3s;
+.collectives__card:hover .collectives__card_arrow path {
+  fill: white;
+  transition: 0.3s;
 }
 
-@media (max-width: 720px){
-    .collectives__title{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .collectives__title h1{
-        font-size: 70px;
-    }
-    .collectives__title p{
-        width: 70%;
-        margin: 0;
-    }
+@media (max-width: 720px) {
+  .collectives__title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .collectives__title h1 {
+    font-size: 70px;
+  }
+  .collectives__title p {
+    width: 70%;
+    margin: 0;
+  }
 }
-@media (max-width: 460px){
-    .collectives{
-        width: calc(100% - 40px);
-        margin: 0px 20px 10px 20px;
-    }
-    .collectives__title h1{
-        font-size: 50px;
-        margin: 10px;
-    }
+@media (max-width: 460px) {
+  .collectives {
+    width: calc(100% - 40px);
+    margin: 0px 20px 10px 20px;
+  }
+  .collectives__title h1 {
+    font-size: 50px;
+    margin: 10px;
+  }
 }
-@media (max-width: 400px){
-    .collectives{
-        width: 100%;
-        margin: 0 0 10px 0;
-    }
+@media (max-width: 400px) {
+  .collectives {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
 }
