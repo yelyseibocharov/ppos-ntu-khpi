@@ -1,12 +1,14 @@
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
 .feedback{
     width: calc(100% - 90px);
     margin: 0px 45px 10px 45px;
-    box-sizing: border-box;
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    font-family: "Inter", sans-serif;
 }
 .feedback__follow{
     background-color: #584974;
@@ -17,7 +19,6 @@
     padding-top: 40px;
     padding-bottom: 40px;
     margin-bottom: 10px;
-    box-sizing: border-box;
 }
 .feedback__follow h2{
     color: #ECEDF2;
@@ -39,7 +40,6 @@
     padding-top: 40px;
     padding-bottom: 40px;
     margin-bottom: 10px;
-    box-sizing: border-box;
 }
 .feedback__join h2{
     color: #28373A;
