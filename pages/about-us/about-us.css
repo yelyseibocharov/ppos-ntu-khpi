@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #ecedf2;
+}
+
+.name {
+  background-color: white;
+  border-radius: 10px;
+  width: 95%;
+  height: auto;
+  display: flex;
+  justify-self: center;
+  margin-top: 100px;
+}
+
+.name h1 {
+  font-size: 125px;
+  margin-left: 50px;
+  margin-top: 50px;
+  color: #28373a;
+  line-height: 120px;
+  max-block-size: 125px;
+}
+
+.name2 {
+  font-size: 125px;
+  margin-left: 340px;
+  max-width: 100px;
+}
+.details_about {
+  color: #28373a;
+  margin-top: 85px;
+  margin-left: -590px;
+  max-width: 300px;
+}
+
+.apple {
+  height: 40px;
+  margin-top: 470px;
+  margin-left: -950px;
+  margin-bottom: 20px;
+}
+
+.apple1 {
+  height: 40px;
+  margin-top: 470px;
+  margin-left: 160px;
+}
+
+.apple2 {
+  height: 40px;
+  margin-top: 470px;
+  margin-left: 160px;
+}
+
+.apple3 {
+  height: 40px;
+  margin-top: 470px;
+  margin-left: 160px;
+}
+
+.apple4 {
+  height: 40px;
+  margin-top: 470px;
+  margin-left: 160px;
+}
+
+.slogan {
+    display: flex;
+  background-color: white;
+  border-radius: 10px;
+  width: 95%;
+  height: auto;
+  justify-self: center;
+  margin-top: 20px;
+  }
+
+.slogan h2, .win-win h2 {
+  font-size: 50px;
+  color: #28373a;
+  text-align:center;
+  margin-bottom: 20px;
+  margin-left: 25%;
+}
+
+.win-win{
+        background-color: white;
+        border-radius: 10px;
+        width: 95%;
+        height: auto;
+        justify-self: center;
+        margin-top: -20px;
+      }
+
+.indent{
+    margin-left: 320px;
+}
+
+.win-win h2 {
+    text-align:left;
+    margin-left: 50px;
+}
