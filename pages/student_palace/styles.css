@@ -94,13 +94,13 @@ h1 {
 
 
 .container3 {
-    width: 710px; /* Ширина контейнера */
-    height: 100px; /* Высота контейнера */
-    margin-left: 400px; /* Отступ от левого края */
+    width: 710px; 
+    height: 100px; 
+    margin-left: 400px; 
 }
 
 .container3 h5 {
-    color: #28373A; /* Цвет текста */
+    color: #28373A; 
     font-size: 18px; 
     text-align: left;
     font-weight: 500;
@@ -109,25 +109,25 @@ h1 {
 
 .h5-container {
     justify-content: center;
-    display: flex; /* Используем Flexbox для расположения в строку */
-    justify-content: flex-start; /* Выравниваем по левому краю */
-    margin-top: 10px; /* Отступ сверху между текстами */
+    display: flex; 
+    justify-content: flex-start; 
+    margin-top: 10px; 
     margin-left: 400px;
     
 
 }
 
 .new-container {
-    width: 350px; /* Ширина контейнера */
-    height: 152px; /* Высота контейнера */
-    padding-left: auto; /* Отступ от левого края */
+    width: 350px; 
+    height: 152px; 
+    padding-left: auto;
     opacity: 0.8;
 }
 
 .new-container h5 {
-    color: #28373A; /* Цвет текста */
-    font-size: 16px; /* Размер шрифта */
-    margin: 0; /* Убираем отступы */
+    color: #28373A; 
+    font-size: 16px; 
+    margin: 0; 
     font-weight: 400;
     text-align: left;
     line-height: 120%;
@@ -139,7 +139,7 @@ h1 {
 .collectives-container {
     width: 287px;
     height: 60px;
-    margin-left: 400px; /* Отступ в 400px от левого края */
+    margin-left: 400px; 
     margin-top: 75px;
 
 }
@@ -147,8 +147,8 @@ h1 {
 h2 {
     color: #28373A;
     font-size: 60px;
-    margin: 0; /* Убираем отступы сверху и снизу */
-    line-height: 60px; /* Делаем высоту строки равной высоте блока */
+    margin: 0; 
+    line-height: 60px; 
 
 
 }
@@ -160,25 +160,25 @@ h2 {
 
 .h5-container2 {
     justify-content: center;
-    display: flex; /* Используем Flexbox для расположения в строку */
-    justify-content: flex-start; /* Выравниваем по левому краю */
-    margin-top: -120px; /* Отступ сверху между текстами */
+    display: flex; 
+    justify-content: flex-start; 
+    margin-top: -120px; 
     margin-left: 400px;
     
 
 }
 
 .new-container2 {
-    width: 350px; /* Ширина контейнера */
-    height: 152px; /* Высота контейнера */
-    padding-left: auto; /* Отступ от левого края */
+    width: 350px; 
+    height: 152px; 
+    padding-left: auto; 
     opacity: 0.8;
 }
 
 .new-container2 h5 {
-    color: #28373A; /* Цвет текста */
-    font-size: 16px; /* Размер шрифта */
-    margin: 0; /* Убираем отступы */
+    color: #28373A; 
+    font-size: 16px;
+    margin: 0;
     font-weight: 400;
     text-align: left;
     line-height: 120%;
@@ -226,7 +226,7 @@ h2 {
 
 
 .button:hover {
-    background-color: #4C4065; /* Темнее при наведении */
+    background-color: #4C4065; 
 }
 
 
