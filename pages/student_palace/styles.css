@@ -1,0 +1,221 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ECEDF2;
+    font-family: 'Inter', sans-serif;
+}
+
+.mesh {
+    margin: auto;
+}
+
+.container {
+    background-color: white;
+    width: 95%;
+    height: 288px;
+    margin-top: 90px; 
+    padding: 20px; 
+    border-radius: 10px; 
+    text-align: center; 
+}
+
+h1 {
+    color: #28373A; 
+    text-align: center; 
+    margin: 0; 
+    font-weight: 500;
+    margin-top: 40px;
+    font-size: 118px;
+    letter-spacing: -5px;
+    font-size: 100px; 
+    line-height: 118px;
+}
+
+.text-container {
+    width: 500px; 
+    height: 66px; 
+    margin: 20px 550.5px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: #fff; 
+    border-radius: 10px; 
+}
+
+.text-center {
+    text-align: center;
+    color: #7A7A7A;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+
+.container2 {
+    background-color: white;
+    width: 95%;
+    height: 1061px;
+    margin-top: 10px; 
+    padding: 20px; 
+    border-radius: 10px; 
+    text-align: center; 
+    
+}
+
+
+.text-center2 {
+    text-align: left; 
+    font-size: 60px;
+    letter-spacing: -5px;
+    font-weight: 500;
+    color: #28373A;
+    margin-top: 40px; 
+    padding-left: 400px;
+    width: 830px;
+    height: 120px;
+    margin-bottom: auto;
+}
+
+.text-detail {
+    text-align: left; 
+    white-space: pre-wrap; 
+    margin-right: 395px;
+    height: auto;
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 33px;
+    margin-top: 20px;
+    margin-bottom: auto;
+}
+
+
+.container3 {
+    width: 710px; /* Ширина контейнера */
+    height: 100px; /* Высота контейнера */
+    margin-left: 400px; /* Отступ от левого края */
+}
+
+.container3 h5 {
+    color: #28373A; /* Цвет текста */
+    font-size: 18px; 
+    text-align: left;
+    font-weight: 500;
+    margin: auto;
+}
+
+.h5-container {
+    justify-content: center;
+    display: flex; /* Используем Flexbox для расположения в строку */
+    justify-content: flex-start; /* Выравниваем по левому краю */
+    margin-top: 10px; /* Отступ сверху между текстами */
+    margin-left: 400px;
+    
+
+}
+
+.new-container {
+    width: 350px; /* Ширина контейнера */
+    height: 152px; /* Высота контейнера */
+    padding-left: auto; /* Отступ от левого края */
+    opacity: 0.8;
+}
+
+.new-container h5 {
+    color: #28373A; /* Цвет текста */
+    font-size: 16px; /* Размер шрифта */
+    margin: 0; /* Убираем отступы */
+    font-weight: 400;
+    text-align: left;
+    line-height: 120%;
+
+    
+    
+}
+
+.collectives-container {
+    width: 287px;
+    height: 60px;
+    margin-left: 400px; /* Отступ в 400px от левого края */
+    margin-top: 75px;
+
+}
+
+h2 {
+    color: #28373A;
+    font-size: 60px;
+    margin: 0; /* Убираем отступы сверху и снизу */
+    line-height: 60px; /* Делаем высоту строки равной высоте блока */
+
+
+}
+
+
+
+.contwithbutt {
+
+}
+
+.h5-container2 {
+    justify-content: center;
+    display: flex; /* Используем Flexbox для расположения в строку */
+    justify-content: flex-start; /* Выравниваем по левому краю */
+    margin-top: 20px; /* Отступ сверху между текстами */
+    margin-left: 400px;
+    
+
+}
+
+.new-container2 {
+    width: 350px; /* Ширина контейнера */
+    height: 152px; /* Высота контейнера */
+    padding-left: auto; /* Отступ от левого края */
+    opacity: 0.8;
+}
+
+.new-container2 h5 {
+    color: #28373A; /* Цвет текста */
+    font-size: 16px; /* Размер шрифта */
+    margin: 0; /* Убираем отступы */
+    font-weight: 400;
+    text-align: left;
+    line-height: 120%;
+
+    
+    
+}
+
+.button-container {
+    margin-top: 20px;
+    position: relative; /* Добавлено для позиционирования содержимого */
+    margin-left: 400px; /* Отступ от левого края */
+}
+
+.button {
+    width: 189px;
+    height: 40px;
+    background-color: #584974;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 35px;
+}
+
+
+.button:hover {
+    background-color: #4C4065; /* Темнее при наведении */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
