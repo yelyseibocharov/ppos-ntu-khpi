@@ -201,32 +201,30 @@ h2 {
 }
 
 .button-container {
-    margin-top: -80px;
+    margin-top: -70px;
     position: relative; 
-    margin-left: 400px; 
+    margin-left: -560.5px;
 }
 
 .button {
-    width: 189px;
+    width: 190px;
     height: 40px;
     background-color: #584974;
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 500;
     border: none;
-    border-radius: 5px;
     padding: 10px 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     cursor: pointer;
     text-decoration: none;
     border-radius: 35px;
+    transition: background-color 0.1s ease-in-out;
 }
 
 
 .button:hover {
     background-color: #4C4065; 
+    transition: background-color 0.1s ease-in-out;
 }
 
 
