@@ -1,6 +1,8 @@
 html, body {
     height: 100%;
     margin: 0;
+    margin-left: 45px;
+    
     padding: 0;
     background-color: #ECEDF2;
     font-family: 'Inter', sans-serif;
@@ -60,7 +62,7 @@ h1 {
     padding: 20px; 
     border-radius: 10px; 
     text-align: center; 
-    
+    margin-bottom: 267px;
 }
 
 
@@ -152,7 +154,6 @@ h2 {
 }
 
 
-
 .contwithbutt {
 
 }
@@ -161,7 +162,7 @@ h2 {
     justify-content: center;
     display: flex; /* Используем Flexbox для расположения в строку */
     justify-content: flex-start; /* Выравниваем по левому краю */
-    margin-top: 20px; /* Отступ сверху между текстами */
+    margin-top: -120px; /* Отступ сверху между текстами */
     margin-left: 400px;
     
 
@@ -181,15 +182,28 @@ h2 {
     font-weight: 400;
     text-align: left;
     line-height: 120%;
-
+    margin-top: -100px;
     
     
 }
 
+
+.image-left {
+    margin-right: 1180px;
+    
+}
+
+.image-right {
+    margin-left: auto;
+    margin-top: -246px;
+    margin-right: 63px;
+    
+}
+
 .button-container {
-    margin-top: 20px;
-    position: relative; /* Добавлено для позиционирования содержимого */
-    margin-left: 400px; /* Отступ от левого края */
+    margin-top: -80px;
+    position: relative; 
+    margin-left: 400px; 
 }
 
 .button {
@@ -215,7 +229,9 @@ h2 {
     background-color: #4C4065; /* Темнее при наведении */
 }
 
+
 main {
     display: flex;
     justify-content: center;
+
 }
