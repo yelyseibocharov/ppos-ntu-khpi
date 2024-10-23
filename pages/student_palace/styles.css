@@ -15,7 +15,7 @@ html, body {
     justify-self: center;
     background-color: white;
     width: 95%;
-    height: 288px;
+    height: 290px;
     margin-top: 90px; 
     padding: 20px; 
     border-radius: 10px; 
@@ -28,16 +28,16 @@ h1 {
     margin: 0; 
     font-weight: 500;
     margin-top: 40px;
-    font-size: 118px;
+    font-size: 120px;
     letter-spacing: -5px;
     font-size: 100px; 
-    line-height: 118px;
+    line-height: 120px;
 }
 
 .text-container {
     width: 500px; 
-    height: 66px; 
-    margin: 20px 550.5px; 
+    height: 65px; 
+    margin: 20px 550px; 
     display: flex; 
     align-items: center; 
     justify-content: center; 
@@ -48,7 +48,7 @@ h1 {
 .text-center {
     text-align: center;
     color: #7A7A7A;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     
 }
@@ -58,12 +58,12 @@ h1 {
     justify-self: center;
     background-color: white;
     width: 95%;
-    height: 1131px;
+    height: 1130px;
     margin-top: 10px; 
     padding: 20px; 
     border-radius: 10px; 
     text-align: center; 
-    margin-bottom: 267px;
+    margin-bottom: 270px;
 }
 
 
@@ -88,7 +88,7 @@ h1 {
     margin-left: 40px;
     font-size: 30px;
     font-weight: 500;
-    line-height: 33px;
+    line-height: 30px;
     margin-top: 20px;
     margin-bottom: auto;
 }
@@ -102,7 +102,7 @@ h1 {
 
 .container3 h5 {
     color: #28373A; 
-    font-size: 18px; 
+    font-size: 20px; 
     text-align: left;
     font-weight: 500;
     margin: auto;
@@ -112,7 +112,7 @@ h1 {
     justify-content: center;
     display: flex; 
     justify-content: flex-start; 
-    margin-top: 10px; 
+    margin-top: 20px; 
     margin-left: 400px;
     
 
@@ -120,14 +120,14 @@ h1 {
 
 .new-container {
     width: 350px; 
-    height: 152px; 
+    height: 150px; 
     padding-left: auto;
     opacity: 0.8;
 }
 
 .new-container h5 {
     color: #28373A; 
-    font-size: 16px; 
+    font-size: 15px; 
     margin: 0; 
     font-weight: 400;
     text-align: left;
@@ -162,7 +162,7 @@ h2 {
   }
   
   .content h2 {
-    width: 287px;
+    width: 290px;
     height: 60px;
     margin-left: 25px; 
     margin-top: 75px;
@@ -185,7 +185,7 @@ h2 {
   
   .new-container2 h5 {
     color: #28373A;
-    font-size: 16px;
+    font-size: 15px;
     margin: 0;
     font-weight: 400;
     text-align: left;
@@ -193,17 +193,17 @@ h2 {
   }
   
 .button_container {
-    margin-right: 503px;
+    margin-right: 500px;
     margin-top: 20px;
     margin-bottom: 77px;
 }
 
 button {
-    width: 189px;
+    width: 190px;
     height: 40px;
     background-color: #584974;
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
     padding: 10px 30px;
     cursor: pointer;
@@ -225,14 +225,14 @@ button:hover {
     width: 330px;
     height: 330px;
     margin-left: 45px;
-    margin-top: 143px;
+    margin-top: 140px;
   }
 
 
   .image-right {
     width: 400px;
     height: 400px;
-    margin-right: 13px;
+    margin-right: 15px;
   }
 
 
