@@ -1,0 +1,107 @@
+.profkom-teams-h {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  color: #28373a;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.profkom-institut-teams-card {
+  background-color: #ecedf2;
+  height: 374px;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  transition: background-color 0.3s;
+}
+.profkom-institut-teams-card-white-inbox {
+  margin-bottom: 15px;
+  border-radius: 10px;
+  width: 295px;
+  padding: 15px;
+  background: #fff;
+  height: 220px;
+}
+.profkom-institut-teams-cards-flex {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.profkom-institut-teams-card:hover {
+  background-color: #584974;
+  transition: background-color 0.3s;
+}
+.profkom-institut-teams-card:hover .profkom-institut-teams-card-descriptions {
+  color: #ecedf2;
+}
+.profkom-institut-teams-card:hover .collectives__card_arrow {
+  transform: rotate(-45deg);
+  transition: transform 0.3s;
+}
+.collectives__card_arrow {
+  transition: transform 0.3s;
+}
+.profkom-institut-teams-card:hover .collectives__card_arrow path {
+  fill: white;
+  transition: transform 0.3s;
+}
+.profkom-institut-teams-card-big-name {
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 1;
+  letter-spacing: -0.06em;
+
+  color: #28373a;
+}
+.XKTFK {
+  margin-top: auto;
+}
+.EEE {
+  margin-left: 40%;
+}
+.KN {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.MIT {
+  padding-top: 10%;
+}
+.IKM {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+}
+.XT {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.BEM {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.SGT {
+  text-align: center;
+}
+.XKTFK {
+  display: flex;
+  align-items: center;
+}
+.profkom-institut-teams-card-descriptions {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  color: #28373a;
+  width: 310px;
+}
+.profkom-arrow-align {
+  position: absolute;
+
+  right: 15px;
+  bottom: 15px;
+}
