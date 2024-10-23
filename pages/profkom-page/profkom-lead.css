@@ -1,0 +1,22 @@
+.profkom-blue-name {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  color: #584974;
+}
+.profkom-lead-h {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  color: #28373a;
+  margin-bottom: 15px;
+}
+.profkom-flex {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  gap: 60px;
+}
