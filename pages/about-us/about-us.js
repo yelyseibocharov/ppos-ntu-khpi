@@ -1,20 +1,33 @@
+const sponsorContainer = document.querySelector('.sponsor');
+let scrollAmount = 0;
+let scrollStep = 1; 
+const cloneElements = () => {
+  const children = Array.from(sponsorContainer.children);
+  children.forEach(child => {
+    const clone = child.cloneNode(true);
+    sponsorContainer.appendChild(clone);
+  });
+};
 
-let currentIndex = 0;
-const totalObjects = 6;  
+cloneElements();
+
+function autoScroll() {
+  sponsorContainer.scrollLeft += scrollStep; 
+
+  if (sponsorContainer.scrollLeft >= sponsorContainer.scrollWidth / 2) {
+    sponsorContainer.scrollLeft = 0; 
+  }
+}
+
+setInterval(autoScroll, 20);
+
+
+const carousel = document.querySelector('.carousel');
 
 function moveCarousel(direction) {
-  const carousel = document.querySelector('.carousel');
-  const items = document.querySelectorAll('.carousel div');
-  
-  currentIndex += direction;
-  
-  if (currentIndex < 0) {
-    currentIndex = totalObjects - 1;  
-  } else if (currentIndex >= totalObjects) {
-    currentIndex = 0; 
-  }
-  
-  const itemWidth = items[0].offsetWidth + 20; 
-  
-  carousel.style.transform = `translateX(${-itemWidth * currentIndex}px)`;
+  const scrollAmount = 400;
+  carousel.scrollBy({
+    left: scrollAmount * direction,   
+    behavior: 'smooth' 
+  });
 }

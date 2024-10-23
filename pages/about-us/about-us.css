@@ -12,65 +12,73 @@ body {
 
 .name {
   background-color: white;
-  border-radius: 10px;
   width: 95%;
-  height: auto;
-  display: flex;
+  height: 600px;
   justify-self: center;
-  margin-top: 100px;
+  padding: 1px;
+  overflow: hidden;
 }
 
 .name h1 {
   font-size: 125px;
-  margin-left: 50px;
-  margin-top: 50px;
-  line-height: 120px;
-  max-block-size: 125px;
+  line-height:100px;
+  text-align: center;
 }
 
-.name2 {
-  font-size: 125px;
-  margin-left: 340px;
-  max-width: 100px;
+.sponsor {
+  display: flex;
+  border-radius: 0;
+  width: 100%;
+  justify-content: space-between; 
+  align-items: center; 
+  overflow-x: scroll; 
+  scrollbar-width: none;
 }
 
-.details_about {
-  margin-top: 85px;
-  margin-left: -590px;
-  max-width: 300px;
+
+.name img, .nama{
+  display: block;
 }
 
-.apple {
-  height: 40px;
-  margin-top: 470px;
-  margin-left: -950px;
-  margin-bottom: 20px;
+.logo-nix{
+  position: relative;
+border-radius: 0px;
+ width: 300px;
+ margin-left: 100px;
 }
 
-.apple1 {
-  height: 40px;
-  margin-top: 470px;
-  margin-left: 160px;
+.nama{
+  border-radius: 0px;
+   width: 200px;
+   margin-left: 100px;
+margin-right: 50px;
 }
 
-.apple2 {
-  height: 40px;
-  margin-top: 470px;
-  margin-left: 160px;
+.epam {
+  width: 300px;
+  height: 80px;
+  margin-left: 100px;
+  margin-top: 10px;
 }
 
-.apple3 {
-  height: 40px;
-  margin-top: 470px;
-  margin-left: 160px;
+.portal {
+  width: 250px;
+  height: 100px;
+  margin-left: 100px;
 }
 
-.apple4 {
-  height: 40px;
-  margin-top: 470px;
-  margin-left: 160px;
+.software{
+  width: 250px; 
+height:100px; 
+margin-left: 100px;
 }
 
+
+.apple5{
+  width: 250px; 
+  height:100px; 
+  margin-left: 100px;
+}
 
 
 
@@ -341,8 +349,8 @@ margin: 10px;
 min-width: 350px;
 height: 425px;
 background-color: #ECEDF2;
-padding: 20px;
 overflow: hidden;
+padding: 20px;
 }
 
 .photo_carousel {
@@ -367,20 +375,30 @@ overflow: hidden;
 .cards_carousel {
   font-size: 16px;
   color: #666;
-  margin-bottom: 20px;
+ 
 }
 
+.box-carousel{
+  margin-bottom: 20px;
+  height: 70px;
+  overflow: hidden;
+  border-radius: 0;
+}
 
 button.prev,
 button.next {
+  width: 80px;
+  height: 40px;
   margin-top: 50px;
   background-color: #f1f1f1;
   border: none;
   padding: 10px;
   font-size: 18px;
   cursor: pointer;
-  border-radius: 50%;
+  border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  align-items: center;
 }
 
 button.prev {
