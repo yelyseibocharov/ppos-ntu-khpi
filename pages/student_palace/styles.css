@@ -1,11 +1,10 @@
 html, body {
     height: 100%;
     margin: 0;
-    margin-left: 45px;
-    
-    padding: 0;
+    padding: 20px;
     background-color: #ECEDF2;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
+    border: none;
 }
 
 .mesh {
@@ -57,7 +56,7 @@ h1 {
 .container2 {
     background-color: white;
     width: 95%;
-    height: 1061px;
+    height: 1131px;
     margin-top: 10px; 
     padding: 20px; 
     border-radius: 10px; 
@@ -136,13 +135,6 @@ h1 {
     
 }
 
-.collectives-container {
-    width: 287px;
-    height: 60px;
-    margin-left: 400px; 
-    margin-top: 75px;
-
-}
 
 h2 {
     color: #28373A;
@@ -154,78 +146,92 @@ h2 {
 }
 
 
-.contwithbutt {
-
-}
-
-.h5-container2 {
-    justify-content: center;
-    display: flex; 
-    justify-content: flex-start; 
-    margin-top: -120px; 
-    margin-left: 400px;
-    
-
-}
-
-.new-container2 {
-    width: 350px; 
-    height: 152px; 
-    padding-left: auto; 
+.container4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1505px;
+    border-radius: 10px;
+    background-color: white;
+  }
+  
+  .content {
+    max-width: 60%;
+  }
+  
+  .content h2 {
+    width: 287px;
+    height: 60px;
+    margin-left: 25px; 
+    margin-top: 75px;
+    margin-bottom: 20px
+  }
+  
+  .h5-container2 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px; 
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+  
+  .new-container2 {
+    width: 350px;
+    height: 152px;
     opacity: 0.8;
-}
-
-.new-container2 h5 {
-    color: #28373A; 
+  }
+  
+  .new-container2 h5 {
+    color: #28373A;
     font-size: 16px;
     margin: 0;
     font-weight: 400;
     text-align: left;
-    line-height: 120%;
-    margin-top: -100px;
-    
-    
+    line-height: 1.2; /* 120% в CSS */
+  }
+  
+.button_container {
+    margin-right: 503px;
+    margin-top: 20px;
+    margin-bottom: 77px;
 }
 
-
-.image-left {
-    margin-right: 1180px;
-    
-}
-
-.image-right {
-    margin-left: auto;
-    margin-top: -246px;
-    margin-right: 63px;
-    
-}
-
-.button-container {
-    margin-top: -70px;
-    position: relative; 
-    margin-left: -560.5px;
-}
-
-.button {
-    width: 190px;
+button {
+    width: 189px;
     height: 40px;
     background-color: #584974;
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 500;
-    border: none;
     padding: 10px 30px;
     cursor: pointer;
     text-decoration: none;
     border-radius: 35px;
-    transition: background-color 0.1s ease-in-out;
+    border: none;
 }
 
 
-.button:hover {
+button:hover {
     background-color: #4C4065; 
-    transition: background-color 0.1s ease-in-out;
 }
+  .images {
+    display: flex;
+
+  }
+  
+  .image-left {
+    width: 330px;
+    height: 330px;
+    margin-left: 45px;
+    margin-top: 143px;
+  }
+
+
+  .image-right {
+    width: 400px;
+    height: 400px;
+    margin-right: 13px;
+  }
 
 
 main {
