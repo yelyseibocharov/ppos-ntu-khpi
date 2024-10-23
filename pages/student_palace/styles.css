@@ -12,6 +12,7 @@ html, body {
 }
 
 .container {
+    justify-self: center;
     background-color: white;
     width: 95%;
     height: 288px;
@@ -54,6 +55,7 @@ h1 {
 
 
 .container2 {
+    justify-self: center;
     background-color: white;
     width: 95%;
     height: 1131px;
