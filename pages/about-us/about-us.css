@@ -1,0 +1,416 @@
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  border-radius: 10px;
+}
+
+body {
+  background-color: #ecedf2;
+  color: #28373a;
+}
+
+.name {
+  background-color: white;
+  width: 95%;
+  height: 600px;
+  justify-self: center;
+  overflow: hidden;
+  margin-top: -60px;
+}
+
+.name h1 {
+  font-size: 125px;
+  line-height:100px;
+  text-align: center;
+}
+
+.sponsor {
+  display: flex;
+  border-radius: 0;
+  width: 100%;
+  justify-content: space-between; 
+  align-items: center; 
+  overflow-x: scroll; 
+  scrollbar-width: none;
+}
+
+
+.name img, .nama{
+  display: block;
+}
+
+.logo-nix{
+  position: relative;
+border-radius: 0px;
+ width: 300px;
+ margin-left: 100px;
+}
+
+.nama{
+  border-radius: 0px;
+   width: 200px;
+   margin-left: 100px;
+margin-right: 50px;
+}
+
+.epam {
+  width: 300px;
+  height: 80px;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.portal {
+  width: 250px;
+  height: 100px;
+  margin-left: 100px;
+}
+
+.software{
+  width: 250px; 
+height:100px; 
+margin-left: 100px;
+}
+
+
+.apple5{
+  width: 250px; 
+  height:100px; 
+  margin-left: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.slogan {
+  display: flex;
+  background-color: white;
+  width: 95%;
+  height: auto;
+  justify-self: center;
+  margin-top: 20px;
+}
+
+.slogan h2,
+.win-win h2 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: 275px;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.win-win {
+  background-color: white;
+  width: 95%;
+  height: auto;
+  justify-self: center;
+  margin-top: 20px;
+}
+
+.indent {
+  margin-left: 300px;
+}
+
+.win-win h2 {
+  text-align: left;
+  margin-left: 40px;
+}
+
+.p1 {
+  font-size: 16px;
+  width: 330px;
+  margin-left: 330px;
+}
+
+.p2 {
+  font-size: 16px;
+  width: 330px;
+  margin-left: 700px;
+  margin-top: -130px;
+}
+
+.asa h2 {
+  margin-left: 330px;
+  letter-spacing: 1px;
+}
+
+.p3 {
+  font-size: 16px;
+  width: 330px;
+  margin-left: 330px;
+}
+
+.p4 {
+  font-size: 16px;
+  width: 330px;
+  margin-left: 700px;
+  margin-top: -125px;
+}
+
+.woman {
+  height: 275px;
+  margin-top: -500px;
+}
+
+.group {
+  display: block;
+  margin-top: -280px;
+  margin-left: 1050px;
+  height: 275px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.atmosphere {
+  background-color: #ffffff;
+  width: 95%;
+  height: auto;
+  justify-self: center;
+  margin-top: -20px;
+}
+
+.atmosphere h2 {
+  font-size: 50px;
+  margin-left: 330px;
+  letter-spacing: 1px;
+}
+
+.atmosphere_details {
+  font-size: 16px;
+  width: 500px;
+  margin-left: 330px;
+  margin-top: -30px;
+}
+
+
+
+.picture_atmosphere {
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+}
+
+.photo_1_atmosphere,
+.photo_2_atmosphere,
+.photo_3_atmosphere,
+.photo_4_atmosphere,
+.photo_5_atmosphere,
+.photo_6_atmosphere {
+  display: block;
+  margin: 10px;
+  object-fit: cover;
+}
+
+
+.photo_1_atmosphere {
+  max-width: 440px;
+  max-height: 500px;
+  margin-left: -25em;
+}
+
+.photo_2_atmosphere {
+  max-width: 250px;
+  max-height: 280px;
+  margin-top: 10em;
+
+}
+
+.photo_3_atmosphere {
+  width: 250px;
+  height: 280px;
+  margin-top: 2em;
+}
+
+.photo_4_atmosphere {
+  width: 440px;
+  height: 250px;
+  margin-top: 20.5em;
+  margin-left: -16em;
+}
+
+.photo_5_atmosphere {
+  width: 300px;
+  height: 400px;
+  margin-top: 5em;
+}
+
+.photo_6_atmosphere {
+  width: 440px;
+  height: 540px;
+}
+
+
+
+
+
+
+
+
+
+.them {
+  width: 95%;
+  height: auto;
+  background-color: #ffffff;
+  justify-self: center;
+  margin-top: 20px;
+  padding-top: 1px;
+
+}
+
+.them h2 {
+  font-size: 50px;
+  margin-left: 330px;
+  letter-spacing: 1px;
+}
+
+.p5 {
+  font-size: 16px;
+  width: 500px;
+  margin-left: 330px;
+  margin-top: -30px;
+}
+
+.button {
+  width: 10em;
+  height: 3em;
+  background-color: #584974;
+  color: #FFFFFF;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 35px;
+}
+
+
+.button:hover {
+  background-color: #4C4065;
+}
+
+.them a {
+  margin-left: 320px;
+  margin-bottom: 70px;
+}
+
+
+
+.carousel {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: none;
+  scrollbar-width: none;
+  width: 90%;
+  margin: auto;
+}
+
+.object1,
+.object2,
+.object3,
+.object4,
+.object5,
+.object6 {
+position: relative;
+margin: 10px;
+min-width: 350px;
+height: 425px;
+background-color: #ECEDF2;
+overflow: hidden;
+padding: 20px;
+}
+
+.photo_carousel {
+  display: flex;
+  width: 310px;
+  height: 260px;
+  object-fit: cover;
+}
+
+.carousel h4 {
+  color: #28373A;
+  font-size: 20px;
+  margin: 10px 0 5px;
+}
+
+.carousel h6 {
+  color: #584974;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.cards_carousel {
+  font-size: 16px;
+  color: #666;
+ 
+}
+
+.box-carousel{
+  margin-bottom: 20px;
+  height: 70px;
+  overflow: hidden;
+  border-radius: 0;
+}
+
+button.prev,
+button.next {
+  width: 80px;
+  height: 40px;
+  margin-top: 50px;
+  background-color: #f1f1f1;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  align-items: center;
+}
+
+button.prev {
+  left: 10px;
+  margin-left: 650px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+button.next {
+  right: 10px;
+}
+
+button:hover {
+  background-color: #ddd;
+}
