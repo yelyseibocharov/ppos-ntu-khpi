@@ -3,11 +3,13 @@
   font-size: 30px;
   line-height: 1;
   letter-spacing: -0.05em;
+  text-align: center;
   color: #584974;
 }
 .profkom-lead-h {
   font-weight: 500;
   font-size: 60px;
+  text-align: center;
   line-height: 1;
   letter-spacing: -0.05em;
   color: #28373a;
@@ -16,7 +18,19 @@
 .profkom-flex {
   display: flex;
   align-items: center;
-
+  flex-direction: column;
   justify-content: center;
   gap: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .profkom-flex {
+    flex-direction: row;
+  }
+  .profkom-lead-h {
+    text-align: start;
+  }
+  .profkom-blue-name {
+    text-align: start;
+  }
 }

@@ -12,6 +12,7 @@
   height: 374px;
   border-radius: 10px;
   padding: 20px;
+  position: relative;
 }
 .profkom-institut-teams-card-white-inbox {
   /* margin: 0; */
@@ -95,5 +96,9 @@
   color: #28373a;
   width: 310px;
 }
-.collectives__card_arrow {
+.profkom-arrow-align {
+  position: absolute;
+
+  right: 5%;
+  bottom: 5%;
 }
