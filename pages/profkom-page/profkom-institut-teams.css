@@ -13,10 +13,9 @@
   border-radius: 10px;
   padding: 20px;
   position: relative;
-  transition: 0.3s;
+  transition: background-color 0.3s;
 }
 .profkom-institut-teams-card-white-inbox {
-  /* margin: 0; */
   margin-bottom: 15px;
   border-radius: 10px;
   width: 295px;
@@ -32,18 +31,21 @@
 }
 .profkom-institut-teams-card:hover {
   background-color: #584974;
-  transition: 0.3s;
+  transition: background-color 0.3s;
 }
 .profkom-institut-teams-card:hover .profkom-institut-teams-card-descriptions {
   color: #ecedf2;
 }
 .profkom-institut-teams-card:hover .collectives__card_arrow {
   transform: rotate(-45deg);
-  transition: 0.3s;
+  transition: transform 0.3s;
+}
+.collectives__card_arrow {
+  transition: transform 0.3s;
 }
 .profkom-institut-teams-card:hover .collectives__card_arrow path {
   fill: white;
-  transition: 0.3s;
+  transition: transform 0.3s;
 }
 .profkom-institut-teams-card-big-name {
   font-weight: 700;
@@ -69,7 +71,7 @@
 }
 .IKM {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: end;
 }
 .XT {
@@ -100,6 +102,6 @@
 .profkom-arrow-align {
   position: absolute;
 
-  right: 5%;
-  bottom: 5%;
+  right: 15px;
+  bottom: 15px;
 }
