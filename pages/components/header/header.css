@@ -54,7 +54,9 @@ header * {
   height: 44px;
   margin: 8px;
 }
-.header__nav__pages, .header__nav_connect, .header__language__button {
+.header__nav__pages,
+.header__nav_connect,
+.header__language__button {
   background-color: white;
 }
 .header__nav__pages {
@@ -106,12 +108,16 @@ button {
   font-weight: 500;
   border-radius: var(--border-radius);
   cursor: pointer;
-  transition: color, background-color var(--transition-duration) ease-in-out;
+  transition:
+    color,
+    background-color var(--transition-duration) ease-in-out;
 }
 
 a:hover:not(.header__khpi_logo_link),
 button:hover:not(.header__khpi_logo_link) {
   color: var(--hover-text-color);
   background-color: var(--hover-bg-color);
-  transition: color, background-color var(--transition-duration) ease-in-out;
+  transition:
+    color,
+    background-color var(--transition-duration) ease-in-out;
 }
