@@ -2,204 +2,110 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
   padding: 0;
-  border-radius: 10px;
+  margin: 0;
 }
 
 body {
   background-color: #ecedf2;
   color: #28373a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.name {
+.name, .slogan, .win-win, .atmosphere, .them {
   background-color: white;
   width: 95%;
-  height: 600px;
-  justify-self: center;
-  overflow: hidden;
-  margin-top: -60px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
 }
+
+
 
 .name h1 {
   font-size: 125px;
-  line-height:100px;
+  line-height: 100px;
   text-align: center;
 }
 
 .sponsor {
   display: flex;
-  border-radius: 0;
   width: 100%;
-  justify-content: space-between; 
-  align-items: center; 
-  overflow-x: scroll; 
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: scroll;
   scrollbar-width: none;
+  gap: 100px;
+  margin-top: 50px;
 }
 
 
-.name img, .nama{
-  display: block;
+.sponsor img {
+  max-width: 300px;
+  max-height: 100px;
+  min-height: 50px;
 }
 
-.logo-nix{
-  position: relative;
-border-radius: 0px;
- width: 300px;
- margin-left: 100px;
-}
-
-.nama{
-  border-radius: 0px;
-   width: 200px;
-   margin-left: 100px;
-margin-right: 50px;
-}
-
-.epam {
-  width: 300px;
-  height: 80px;
-  margin-left: 100px;
-  margin-top: 10px;
-}
-
-.portal {
-  width: 250px;
-  height: 100px;
-  margin-left: 100px;
-}
-
-.software{
-  width: 250px; 
-height:100px; 
-margin-left: 100px;
-}
-
-
-.apple5{
-  width: 250px; 
-  height:100px; 
-  margin-left: 100px;
-}
-
-
-
-
-
-
-
-
-
-
-
-.slogan {
-  display: flex;
-  background-color: white;
-  width: 95%;
-  height: auto;
-  justify-self: center;
-  margin-top: 20px;
-}
-
-.slogan h2,
-.win-win h2 {
+.slogan h2, .win-win h2, .atmosphere h2, .them h2 {
   font-size: 50px;
   text-align: center;
   margin-bottom: 20px;
-  margin-left: 275px;
-  margin-top: 10px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .win-win {
-  background-color: white;
-  width: 95%;
-  height: auto;
-  justify-self: center;
-  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
 
 .indent {
   margin-left: 300px;
 }
 
-.win-win h2 {
-  text-align: left;
-  margin-left: 40px;
+.p1, .p2, .p3, .p4 {
+  display:inline;
+  max-width: 300px;
+  text-align: justify;
+  margin-left: 20px;
 }
 
-.p1 {
-  font-size: 16px;
-  width: 330px;
-  margin-left: 330px;
+
+.asa {
+  display: inline;
+  width: 100%;
+  text-align: center; 
+  margin-top: 20px; 
+}
+.image-win-win {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 20px;
 }
 
-.p2 {
-  font-size: 16px;
-  width: 330px;
-  margin-left: 700px;
-  margin-top: -130px;
-}
-
-.asa h2 {
-  margin-left: 330px;
-  letter-spacing: 1px;
-}
-
-.p3 {
-  font-size: 16px;
-  width: 330px;
-  margin-left: 330px;
-}
-
-.p4 {
-  font-size: 16px;
-  width: 330px;
-  margin-left: 700px;
-  margin-top: -125px;
+.woman, .group {
+  height: 275px;
+  width: auto;
 }
 
 .woman {
-  height: 275px;
-  margin-top: -500px;
+  margin-right: auto; /* Малюнок знаходиться зліва */
 }
 
 .group {
-  display: block;
-  margin-top: -280px;
-  margin-left: 1050px;
-  height: 275px;
+  margin-left: auto; /* Малюнок знаходиться справа */
 }
-
-
-
-
-
-
-
-
-
 
 
 
 .atmosphere {
   background-color: #ffffff;
   width: 95%;
-  height: auto;
-  justify-self: center;
-  margin-top: -20px;
-}
+    text-align: center;
+  }
 
 .atmosphere h2 {
   font-size: 50px;
@@ -213,8 +119,6 @@ margin-left: 100px;
   margin-left: 330px;
   margin-top: -30px;
 }
-
-
 
 .picture_atmosphere {
   height: auto;
@@ -234,7 +138,6 @@ margin-left: 100px;
   object-fit: cover;
 }
 
-
 .photo_1_atmosphere {
   max-width: 440px;
   max-height: 500px;
@@ -245,7 +148,6 @@ margin-left: 100px;
   max-width: 250px;
   max-height: 280px;
   margin-top: 10em;
-
 }
 
 .photo_3_atmosphere {
@@ -272,14 +174,6 @@ margin-left: 100px;
   height: 540px;
 }
 
-
-
-
-
-
-
-
-
 .them {
   width: 95%;
   height: auto;
@@ -287,7 +181,7 @@ margin-left: 100px;
   justify-self: center;
   margin-top: 20px;
   padding-top: 1px;
-
+  border-radius: 10px;
 }
 
 .them h2 {
@@ -307,7 +201,7 @@ margin-left: 100px;
   width: 10em;
   height: 3em;
   background-color: #584974;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 16px;
   display: flex;
   justify-content: center;
@@ -316,17 +210,14 @@ margin-left: 100px;
   border-radius: 35px;
 }
 
-
 .button:hover {
-  background-color: #4C4065;
+  background-color: #4c4065;
 }
 
 .them a {
   margin-left: 320px;
   margin-bottom: 70px;
 }
-
-
 
 .carousel {
   display: flex;
@@ -335,6 +226,7 @@ margin-left: 100px;
   scrollbar-width: none;
   width: 90%;
   margin: auto;
+  border-radius: 10px;
 }
 
 .object1,
@@ -343,13 +235,13 @@ margin-left: 100px;
 .object4,
 .object5,
 .object6 {
-position: relative;
-margin: 10px;
-min-width: 350px;
-height: 425px;
-background-color: #ECEDF2;
-overflow: hidden;
-padding: 20px;
+  position: relative;
+  margin: 10px;
+  min-width: 350px;
+  height: 425px;
+  background-color: #ecedf2;
+  overflow: hidden;
+  padding: 20px;
 }
 
 .photo_carousel {
@@ -360,7 +252,7 @@ padding: 20px;
 }
 
 .carousel h4 {
-  color: #28373A;
+  color: #28373a;
   font-size: 20px;
   margin: 10px 0 5px;
 }
@@ -374,10 +266,9 @@ padding: 20px;
 .cards_carousel {
   font-size: 16px;
   color: #666;
- 
 }
 
-.box-carousel{
+.box-carousel {
   margin-bottom: 20px;
   height: 70px;
   overflow: hidden;
