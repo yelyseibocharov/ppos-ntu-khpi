@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #ecedf2;
+  color: #28373a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sports-commission,
+.team-head,
+.directions,
+.involvement-in-commission {
+  background-color: white;
+  width: 95%;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sports-commission h2 {
+  font-size: 50px;
+}
+.content-sport-commission {
+  text-align: left;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content-team-head {
+  text-align: left;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-the-team-head {
+  width: 80%;
+}
+
+.team-head-photo {
+  border-radius: 10px;
+}
+
+.team-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-head h2 {
+  font-size: 50px;
+  text-align: left;
+}
+.team-head h6 {
+  color: #584974;
+  font-size: 25px;
+}
+
+.directions h2{
+  font-size: 50px;
+  text-align: center;
+}
+
+.directions {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 25px;
+}
+
+.goal-directions {
+    display: flex;
+  width: 90%;
+  height: 70px;
+  background-color: #584974;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  text-align: left;
+  align-items: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.work-areas1,
+.work-areas2,
+.work-areas3,
+.work-areas4,
+.work-areas5,
+.work-areas6,
+.work-areas7 {
+    display: flex;
+  width: 80%;
+  height: 70px;
+  background-color: #ecedf2;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+  align-items: center;
+}
+
+
+.involvement-in-commission{
+    padding: 80px 150px;
+    font-size: 30px;
+}

@@ -17,12 +17,15 @@ body {
   background-color: white;
   width: 95%;
   border-radius: 10px;
-  padding: 20px;
   margin-top: 20px;
+  padding: 20px;
 }
 
 
-
+.name{
+  display: block;
+  padding: 30px 0px 20px 0;
+}
 .name h1 {
   font-size: 125px;
   line-height: 100px;
@@ -50,78 +53,85 @@ body {
 .slogan h2, .win-win h2, .atmosphere h2, .them h2 {
   font-size: 50px;
   text-align: center;
-  margin-bottom: 20px;
 }
+
+
+
+
 
 
 .win-win {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
   gap: 20px;
+  padding-bottom: 0;
+}
+
+.paragraph-group, .paragraph-group-2 {
+  display: flex;
+  gap: 50px;
   justify-content: center;
 }
 
-.indent {
-  margin-left: 300px;
-}
-
-.p1, .p2, .p3, .p4 {
-  display:inline;
+.winners-agency1, 
+.winners-agency2, 
+.manage-winners1, 
+.manage-winners2{
   max-width: 300px;
+  font-size: 16px;
   text-align: justify;
-  margin-left: 20px;
+  margin: 0;
 }
 
-
-.asa {
-  display: inline;
-  width: 100%;
-  text-align: center; 
-  margin-top: 20px; 
-}
-.image-win-win {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+.manage-winners-agency {
+  text-align: center;
   margin-top: 20px;
 }
 
-.woman, .group {
-  height: 275px;
-  width: auto;
+.image-win-win {
+  display: flex;
+
 }
 
-.woman {
-  margin-right: auto; /* Малюнок знаходиться зліва */
+.women{
+position: absolute;
+display: block;
+height: 500px;
+width: auto;
 }
 
-.group {
-  margin-left: auto; /* Малюнок знаходиться справа */
+
+
+
+@media screen and (max-width: 1280px) {
+  .woman, .group {
+  display:none;}
 }
+
 
 
 
 .atmosphere {
-  background-color: #ffffff;
-  width: 95%;
-    text-align: center;
-  }
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  padding: 20px 0 0 0;
+  gap: 20px;
+}
 
 .atmosphere h2 {
   font-size: 50px;
-  margin-left: 330px;
   letter-spacing: 1px;
 }
 
 .atmosphere_details {
   font-size: 16px;
-  width: 500px;
-  margin-left: 330px;
-  margin-top: -30px;
+  max-width: 500px;
 }
 
 .picture_atmosphere {
-  height: auto;
   width: 100%;
   overflow: hidden;
   display: flex;
@@ -132,15 +142,17 @@ body {
 .photo_3_atmosphere,
 .photo_4_atmosphere,
 .photo_5_atmosphere,
-.photo_6_atmosphere {
+.photo_6_atmosphere,
+.photo_7_atmosphere {
   display: block;
-  margin: 10px;
   object-fit: cover;
+  border-radius: 10px;
+  margin: 10px;
 }
 
 .photo_1_atmosphere {
   max-width: 440px;
-  max-height: 500px;
+  max-height: 540px;
   margin-left: -25em;
 }
 
@@ -174,27 +186,43 @@ body {
   height: 540px;
 }
 
+.photo_7_atmosphere {
+  width: 400px;
+  height: 430px;
+  margin-top: 2em;
+}
+
+
+
+
+
+
 .them {
-  width: 95%;
-  height: auto;
-  background-color: #ffffff;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
   justify-self: center;
-  margin-top: 20px;
-  padding-top: 1px;
-  border-radius: 10px;
+  padding: 20px 0 0 0;
+  gap: 20px;
 }
 
-.them h2 {
+.infotmation-them{
+  width: 30%;
+}
+
+.infotmation-them h2 {
   font-size: 50px;
-  margin-left: 330px;
   letter-spacing: 1px;
+  display: flex;
+  justify-content: left;
 }
 
-.p5 {
+
+.our-them {
   font-size: 16px;
-  width: 500px;
-  margin-left: 330px;
-  margin-top: -30px;
+  max-width: 500px;
+  min-width: 200px;
+  margin: 20px 0 20px;
 }
 
 .button {
@@ -214,11 +242,6 @@ body {
   background-color: #4c4065;
 }
 
-.them a {
-  margin-left: 320px;
-  margin-bottom: 70px;
-}
-
 .carousel {
   display: flex;
   overflow-x: scroll;
@@ -227,6 +250,7 @@ body {
   width: 90%;
   margin: auto;
   border-radius: 10px;
+  gap: 10px;
 }
 
 .object1,
@@ -242,6 +266,7 @@ body {
   background-color: #ecedf2;
   overflow: hidden;
   padding: 20px;
+  border-radius: 10px;
 }
 
 .photo_carousel {
@@ -249,6 +274,7 @@ body {
   width: 310px;
   height: 260px;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .carousel h4 {
@@ -293,15 +319,11 @@ button.next {
 
 button.prev {
   left: 10px;
-  margin-left: 650px;
-  margin-right: 30px;
-  margin-bottom: 30px;
-}
-
-button.next {
-  right: 10px;
+  display: inline;
+  justify-content: center;
+  align-items: center;
 }
 
 button:hover {
-  background-color: #ddd;
+  background-color: #ff0000;
 }
