@@ -38,9 +38,11 @@ h1 {
 }
 
 .text-container {
+  display: flex; 
+  justify-self: center;
   width: 500px; 
   height: 65px; 
-  margin: 20px 550px; 
+  margin-top: 20px; 
   display: flex; 
   align-items: center; 
   justify-content: center; 
@@ -59,6 +61,7 @@ h1 {
 
 
 .container2 {
+  display: column; 
   justify-self: center;
   background-color: white;
   width: 95%;
@@ -71,37 +74,41 @@ h1 {
 }
 
 
+
 .text-center2 {
+  display: flex; 
+  justify-self: center;
   text-align: left; 
   font-size: 60px;
   letter-spacing: -5px;
   font-weight: 500;
   color: #28373A;
-  margin-top: 40px; 
-  padding-left: 400px;
   width: 830px;
   height: 120px;
-  margin-bottom: auto;
+  margin-bottom: auto;    
+  margin: 40px auto 20px 400px;
 }
 
 .text-detail {
+  display: flex; 
+  justify-self: left;
   text-align: left; 
-  white-space: pre-wrap; 
-  margin-right: 395px;
+  white-space: pre-wrap;
+  width: 1070px; 
   height: auto;
-  margin-left: 40px;
   font-size: 30px;
   font-weight: 500;
   line-height: 30px;
-  margin-top: 20px;
-  margin-bottom: auto;
+  margin: 20px 395px -30px 40px;
 }
 
 
 .container3 {
+  display: flex; 
+  justify-self: center;
   width: 710px; 
-  height: 100px; 
-  margin-left: 400px; 
+  height: auto; 
+  margin-top: -10px;
 }
 
 .container3 h5 {
@@ -109,15 +116,17 @@ h1 {
   font-size: 20px; 
   text-align: left;
   font-weight: 500;
-  margin: auto;
+  margin: 10px auto -10px auto
 }
 
 .h5-container {
+  display: flex; 
+  justify-self: center;
+  gap: 10px;
   justify-content: center;
   display: flex; 
   justify-content: flex-start; 
-  margin-top: 20px; 
-  margin-left: 400px;
+  margin-top: 10px
   
 
 }
@@ -135,7 +144,7 @@ h1 {
   margin: 0; 
   font-weight: 400;
   text-align: left;
-  line-height: 120%;
+  line-height: 1.2;
 
   
   
@@ -156,7 +165,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1505px;
+  width: 95%;
   border-radius: 10px;
   background-color: white;
 }
@@ -193,7 +202,7 @@ h2 {
   margin: 0;
   font-weight: 400;
   text-align: left;
-  line-height: 1.2; /* 120% в CSS */
+  line-height: 1.2; 
 }
 
 .button_container {
