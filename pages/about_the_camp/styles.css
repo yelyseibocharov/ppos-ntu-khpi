@@ -5,6 +5,9 @@ html, body {
     background-color: #ECEDF2;
     font-family: 'Inter';
     border: none;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
 
   }
 .container {
