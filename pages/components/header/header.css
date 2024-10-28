@@ -39,7 +39,7 @@ header {
 }
 
 header * {
-  font-size: 16px;
+  font-size: clamp(0.8rem, 1vw, 1rem);
 }
 
 .header__khpi_logo_link {
@@ -82,13 +82,16 @@ header * {
 .header__nav__pages li:last-child {
   margin-right: 0;
 }
-
-.header__nav_link,
-.header__nav_connect {
-  padding: 20px 52px;
+.header__nav__pages li {
+  max-width: 100%;
+}
+.header__nav_link {
+  padding: 20px clamp(10px, 1vw, 52px);
 }
 
 .header__nav_connect {
+  width: 100%;
+  max-width: 17.5rem;
   padding: 20px 80px;
 }
 
@@ -101,23 +104,37 @@ a,
 button {
   height: var(--header-height);
   max-height: var(--header-height);
-  min-width: fit-content;
   color: var(--main-text-color);
   letter-spacing: -2%;
   text-align: center;
   font-weight: 500;
+  white-space: nowrap;
   border-radius: var(--border-radius);
   cursor: pointer;
-  transition:
-    color,
-    background-color var(--transition-duration) ease-in-out;
+  transition: color, background-color var(--transition-duration) ease-in-out;
 }
 
 a:hover:not(.header__khpi_logo_link),
 button:hover:not(.header__khpi_logo_link) {
   color: var(--hover-text-color);
   background-color: var(--hover-bg-color);
-  transition:
-    color,
-    background-color var(--transition-duration) ease-in-out;
+  transition: color, background-color var(--transition-duration) ease-in-out;
+}
+
+@media screen and (max-width: 1280px) {
+  .header__nav_link {
+    padding: 20px 20px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  header {
+    margin: 20px 20px;
+  }
+  .header__nav_link {
+    padding: 20px 10px;
+  }
+  .header__nav_connect,
+  .header__language__button {
+    padding: 20px 20px;
+  }
 }
