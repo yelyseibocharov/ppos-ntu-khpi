@@ -4,11 +4,19 @@ html, body {
     padding: 20px;
     background-color: #ECEDF2;
     font-family: 'Inter';
-    border: none;
-    display: flex; 
-    flex-wrap: wrap; 
-    justify-content: center; 
+    border: none; 
 
+    @media (max-width: 95%) {
+        .container {
+            flex-basis: 100%; 
+        }
+    }
+    
+    @media (max-width: 95%) {
+        .container2 {
+            flex-basis: 100%; 
+        }
+    }
   }
 .container {
     justify-self: center;
