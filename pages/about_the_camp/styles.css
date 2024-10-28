@@ -5,6 +5,7 @@ html, body {
     background-color: #ECEDF2;
     font-family: 'Inter';
     border: none;
+
   }
 .container {
     justify-self: center;
@@ -18,26 +19,24 @@ html, body {
     
   }
 h1 {
-    display: flex; 
-    justify-content: flex-start; 
+    display: flex;
+    justify-content: flex-start;
     flex-direction: column;
-    color: #28373A; 
-    text-align: center; 
-    margin: 0; 
+    color: #28373A;
+    text-align: center;
     font-weight: 500;
-    margin-top: 40px;
+    margin-top: 50px;
     font-size: 120px;
     letter-spacing: -5px;
-    font-size: 100px; 
+    font-size: 100px;
     line-height: 1.2;
+    margin-bottom: -20px;
   }
 .text-container {
-    width: 500; 
+    width: 500px; 
     height: 44px; 
-    margin: 20px; 
     display: flex; 
     justify-self: center;
-    background-color: #fff; 
     border-radius: 10px; 
   }
 .text-center {
@@ -51,10 +50,13 @@ h1 {
 
 
 .container2 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     justify-self: center;
     background-color: white;
     width: 95%;
-    height: 1130px;
+    height: auto;
     margin-top: 10px; 
     padding: 20px; 
     border-radius: 10px; 
@@ -76,7 +78,7 @@ h1 {
     font-size: 60px;
 }
 .protection {
-    margin-top: -20px;
+    margin-top: -80px;
     justify-self: center;
     width: 710px;
     height: auto;
@@ -114,6 +116,7 @@ h1 {
     line-height: 1.2;
 }
 .text-center2 {
+    margin-left: 100px;
     display: flex; 
     justify-content: flex-start; 
     flex-direction: column;
@@ -123,7 +126,6 @@ h1 {
     font-weight: 500;
     color: #28373A;
     margin-top: 40px; 
-    padding-left: 400px;
     width: 830px;
     height: 120px;
     line-height: 1.0;
@@ -134,8 +136,10 @@ h1 {
 .content {
     display: flex; 
     justify-content: flex-start; 
-    align-items: center;
-    margin-left: 35px;
+    align-items: left;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+    margin-left: -400px;
 }
   
 .image-box img {
@@ -165,9 +169,9 @@ h1 {
     width: 330px; 
     height: 150px; 
     padding-left: auto;
-    opacity: 0.8;
     gap: 10px;
     margin-top: -230px;
+    opacity: 0.8
 }
   
 .btn {
@@ -204,9 +208,8 @@ h1 {
 }
 
 .image1 {
-    margin-top: -120px;
     height: 350px;
-    margin-top: auto;
+    margin: 20px auto 20px 10px;
 }
 
 .image2 {
