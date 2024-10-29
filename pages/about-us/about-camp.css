@@ -45,7 +45,7 @@ body {
 }
 
 .main-about-camp-text {
-    letter-spacing: -5%;
+    letter-spacing: -0.05em;
     font-size: 50px;
     text-align: left;
 }
