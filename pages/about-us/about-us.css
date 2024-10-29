@@ -1,144 +1,138 @@
 * {
-  box-sizing: border-box;
-  font-family: "Inter", sans-serif;
-  padding: 0;
-  margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 body {
-  background-color: #ecedf2;
-  color: #28373a;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    background-color: #ecedf2;
+    color: #28373a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .name, .slogan, .win-win, .atmosphere, .them {
-  background-color: white;
-  width: 95%;
-  border-radius: 10px;
-  margin-top: 20px;
-  padding: 20px;
+    background-color: white;
+    width: 95%;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
 }
 
 
-.name{
-  display: block;
-  padding: 30px 0px 20px 0;
+.name {
+    display: block;
+    padding: 30px 0 20px 0;
 }
+
 .name h1 {
-  font-size: 125px;
-  line-height: 100px;
-  text-align: center;
+    font-size: 125px;
+    line-height: 100px;
+    text-align: center;
 }
 
 .sponsor {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  overflow-x: scroll;
-  scrollbar-width: none;
-  gap: 100px;
-  margin-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    gap: 100px;
+    margin-top: 50px;
 }
 
 
 .sponsor img {
-  max-width: 300px;
-  max-height: 100px;
-  min-height: 50px;
+    max-width: 300px;
+    max-height: 100px;
+    min-height: 50px;
 }
 
 .slogan h2, .win-win h2, .atmosphere h2, .them h2 {
-  font-size: 50px;
-  text-align: center;
+    font-size: 50px;
+    text-align: center;
 }
-
-
-
-
 
 
 .win-win {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 0;
 }
 
 .paragraph-group, .paragraph-group-2 {
-  display: flex;
-  gap: 50px;
-  justify-content: center;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
 }
 
-.winners-agency1, 
-.winners-agency2, 
-.manage-winners1, 
-.manage-winners2{
-  max-width: 300px;
-  font-size: 16px;
-  text-align: justify;
-  margin: 0;
+.winners-agency1,
+.winners-agency2,
+.manage-winners1,
+.manage-winners2 {
+    max-width: 300px;
+    font-size: 16px;
+    text-align: justify;
+    margin: 0;
 }
 
 .manage-winners-agency {
-  text-align: center;
-  margin-top: 20px;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .image-win-win {
-  display: flex;
+    display: flex;
 
 }
 
-.women{
-position: absolute;
-display: block;
-height: 500px;
-width: auto;
+.women {
+    position: absolute;
+    display: block;
+    height: 500px;
+    width: auto;
 }
-
-
 
 
 @media screen and (max-width: 1280px) {
-  .woman, .group {
-  display:none;}
+    .woman, .group {
+        display: none;
+    }
 
-  .win-win {
-    padding-bottom: 20px;
-  }
+    .win-win {
+        padding-bottom: 20px;
+    }
 }
-
-
 
 
 .atmosphere {
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-self: center;
-  padding: 20px 0 0 0;
-  gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    padding: 20px 0 0 0;
+    gap: 20px;
 }
 
 .atmosphere h2 {
-  font-size: 50px;
-  letter-spacing: 1px;
+    font-size: 50px;
+    letter-spacing: 1px;
 }
 
 .atmosphere_details {
-  font-size: 16px;
-  max-width: 500px;
+    font-size: 16px;
+    max-width: 500px;
 }
 
 .picture_atmosphere {
-  width: 100%;
-  overflow: hidden;
-  display: flex;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
 }
 
 .photo_1_atmosphere,
@@ -148,113 +142,109 @@ width: auto;
 .photo_5_atmosphere,
 .photo_6_atmosphere,
 .photo_7_atmosphere {
-  display: block;
-  object-fit: cover;
-  border-radius: 10px;
-  margin: 10px;
+    display: block;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 .photo_1_atmosphere {
-  max-width: 440px;
-  max-height: 540px;
-  margin-left: -25em;
+    max-width: 440px;
+    max-height: 540px;
+    margin-left: -25em;
 }
 
 .photo_2_atmosphere {
-  max-width: 250px;
-  max-height: 280px;
-  margin-top: 10em;
+    max-width: 250px;
+    max-height: 280px;
+    margin-top: 10em;
 }
 
 .photo_3_atmosphere {
-  width: 250px;
-  height: 280px;
-  margin-top: 2em;
+    width: 250px;
+    height: 280px;
+    margin-top: 2em;
 }
 
 .photo_4_atmosphere {
-  width: 440px;
-  height: 250px;
-  margin-top: 20.5em;
-  margin-left: -16em;
+    width: 440px;
+    height: 250px;
+    margin-top: 20.5em;
+    margin-left: -16em;
 }
 
 .photo_5_atmosphere {
-  width: 300px;
-  height: 400px;
-  margin-top: 5em;
+    width: 300px;
+    height: 400px;
+    margin-top: 5em;
 }
 
 .photo_6_atmosphere {
-  width: 440px;
-  height: 540px;
+    width: 440px;
+    height: 540px;
 }
 
 .photo_7_atmosphere {
-  width: 400px;
-  height: 430px;
-  margin-top: 2em;
+    width: 400px;
+    height: 430px;
+    margin-top: 2em;
 }
-
-
-
-
 
 
 .them {
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-self: center;
-  padding: 20px 0 0 0;
-  gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    padding: 20px 0 0 0;
+    gap: 20px;
 }
 
-.infotmation-them{
-  width: 30%;
+.infotmation-them {
+    width: 30%;
 }
 
 .infotmation-them h2 {
-  font-size: 50px;
-  letter-spacing: 1px;
-  display: flex;
-  justify-content: left;
+    font-size: 50px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: left;
 }
 
 
 .our-them {
-  font-size: 16px;
-  max-width: 500px;
-  min-width: 200px;
-  margin: 20px 0 20px;
+    font-size: 16px;
+    max-width: 500px;
+    min-width: 200px;
+    margin: 20px 0 20px;
 }
 
 .button {
-  width: 10em;
-  height: 3em;
-  background-color: #584974;
-  color: #ffffff;
-  font-size: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  border-radius: 35px;
+    width: 10em;
+    height: 3em;
+    background-color: #584974;
+    color: #ffffff;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 35px;
 }
 
 .button:hover {
-  background-color: #4c4065;
+    background-color: #4c4065;
 }
 
 .carousel {
-  display: flex;
-  overflow-x: scroll;
-  overflow-y: none;
-  scrollbar-width: none;
-  width: 90%;
-  margin: auto;
-  border-radius: 10px;
-  gap: 10px;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    gap: 10px;
 }
 
 .object1,
@@ -263,71 +253,71 @@ width: auto;
 .object4,
 .object5,
 .object6 {
-  position: relative;
-  margin: 10px;
-  min-width: 350px;
-  height: 425px;
-  background-color: #ecedf2;
-  overflow: hidden;
-  padding: 20px;
-  border-radius: 10px;
+    position: relative;
+    margin: 10px;
+    min-width: 350px;
+    height: 425px;
+    background-color: #ecedf2;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .photo_carousel {
-  display: flex;
-  width: 310px;
-  height: 260px;
-  object-fit: cover;
-  border-radius: 10px;
+    display: flex;
+    width: 310px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .carousel h4 {
-  color: #28373a;
-  font-size: 20px;
-  margin: 10px 0 5px;
+    color: #28373a;
+    font-size: 20px;
+    margin: 10px 0 5px;
 }
 
 .carousel h6 {
-  color: #584974;
-  font-size: 16px;
-  margin: 5px 0;
+    color: #584974;
+    font-size: 16px;
+    margin: 5px 0;
 }
 
 .cards_carousel {
-  font-size: 16px;
-  color: #666;
+    font-size: 16px;
+    color: #666;
 }
 
 .box-carousel {
-  margin-bottom: 20px;
-  height: 70px;
-  overflow: hidden;
-  border-radius: 0;
+    margin-bottom: 20px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 0;
 }
 
 button.prev,
 button.next {
-  width: 80px;
-  height: 40px;
-  margin-top: 50px;
-  background-color: #f1f1f1;
-  border: none;
-  padding: 10px;
-  font-size: 18px;
-  cursor: pointer;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  justify-content: center;
-  align-items: center;
+    width: 80px;
+    height: 40px;
+    margin-top: 50px;
+    background-color: #f1f1f1;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
 }
 
 button.prev {
-  left: 10px;
-  display: inline;
-  justify-content: center;
-  align-items: center;
+    left: 10px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
 }
 
 button:hover {
-  background-color: #ff0000;
+    background-color: #ff0000;
 }

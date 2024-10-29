@@ -14,11 +14,12 @@ body {
 
 }
 
-.containers{
+.containers {
     min-width: 100%;
     align-items: center;
     justify-content: center;
 }
+
 .about-the-camp, .main-about-camp {
     display: flex;
     flex-direction: column;
@@ -51,7 +52,7 @@ body {
 
 
 .main-about-camp {
-    padding: 0 40px 20px 40px ;
+    padding: 0 40px 20px 40px;
     gap: 20px;
 }
 
@@ -63,8 +64,14 @@ body {
     gap: 70px;
 }
 
+.about-camp-protection {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .main-about-camp-text-start {
-margin-left:400px ;
+    margin-left: 400px;
 }
 
 .about-camp-protection h3, .about-camp-agency {
@@ -72,7 +79,7 @@ margin-left:400px ;
     align-items: center;
     justify-content: center;
     font-size: 30px;
-max-width: 700px;
+    max-width: 700px;
 }
 
 .column1, .column2 {
@@ -82,46 +89,46 @@ max-width: 700px;
     text-align: justify;
 }
 
-.agency-about-camp{
+.agency-about-camp {
     font-size: 50px;
     margin: auto;
     min-width: 700px;
 }
 
-.about-camp-agency-details{
+.about-camp-agency-details {
     max-width: 300px;
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0 20px 0;
 }
 
 
-
-.butoon {
-  width: 10em;
-  height: 3em;
-  background-color: #584974;
-  color: #ffffff;
-  font-size: 16px;
-  cursor: pointer;
-  text-decoration: none;
-  border-radius: 35px;
-  border: none;
+.button {
+    width: 10em;
+    height: 3em;
+    background-color: #584974;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 35px;
+    border: none;
 }
 
 .button:hover {
-  background-color: #4c4065;
+    background-color: #4c4065;
 }
 
-.photo-about-camp{
+.photo-about-camp {
     display: flex;
 }
+
 .image1-abuout-camp {
     position: absolute;
-  height: 300px;
-margin-left: -310px;
+    height: 300px;
+    margin-left: -310px;
 }
 
 .image2-about-camp {
-   position: absolute;
-  height: 180px;
-  margin-left: 300px;
+    position: absolute;
+    height: 180px;
+    margin-left: 300px;
 }
