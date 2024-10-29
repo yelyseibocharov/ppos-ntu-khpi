@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #ecedf2;
+  color: #28373a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containers {
+  align-items: center;
+  justify-content: center;
+}
+
+.student-palace,
+.container2-student-palace {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  max-width: 95%;
+  border-radius: 10px;
+  margin: 20px auto;
+  gap: 20px;
+}
+
+.student-palace h1 {
+  font-size: 120px;
+}
+
+.student-palace-slogan {
+  max-width: 700px;
+  text-align: center;
+}
+
+.container2-student-palace h2 {
+  font-size: 50px;
+}
+
+.container2-student-palace {
+  padding: 20px;
+}
+
+.container2-student {
+  align-items: left;
+  width: 95%;
+}
+.container2-student-palace h3 {
+  font-size: 35px;
+  min-width: 100px;
+}
+
+.student-palace-description {
+  display: block;
+  max-width: 1000px;
+  gap: 50px;
+  justify-content: center;
+}
+
+.student-palace-description h5 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.palace-description-text {
+  display: flex;
+  gap: 100px;
+}
+
+.palace-description-details1,
+.palace-description-details2,
+.palace-description-details3,
+.palace-description-details4 {
+  display: flex;
+  max-width: 500px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.student-palace-description h2 {
+  margin: 30px 0 30px 0;
+}
+
+.button {
+  width: 10em;
+  height: 3em;
+  background-color: #584974;
+  color: #ffffff;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 35px;
+}
+
+.button:hover {
+  background-color: #4c4065;
+}
+
+.image1-student-palace {
+  float: left;
+  min-width: 200px;
+  margin-left: -400px;
+}

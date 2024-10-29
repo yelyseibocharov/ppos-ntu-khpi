@@ -95,7 +95,7 @@ max-width: 700px;
 
 
 
-.btn {
+.butoon {
   width: 10em;
   height: 3em;
   background-color: #584974;
@@ -107,7 +107,7 @@ max-width: 700px;
   border: none;
 }
 
-.btn:hover {
+.button:hover {
   background-color: #4c4065;
 }
 
