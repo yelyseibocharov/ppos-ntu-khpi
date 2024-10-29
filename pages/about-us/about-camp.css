@@ -8,52 +8,64 @@
 body {
     background-color: #ecedf2;
     color: #28373a;
+}
+
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    gap: 10px;
+    padding: 10px;
 }
 
-.containers {
-    min-width: 100%;
+.main-about-camp {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.about-the-camp, .main-about-camp {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.headline-about-camp, .main-about-camp {
     background-color: white;
     width: 95%;
     border-radius: 10px;
-    margin: 20px auto;
-    padding: 20px;
+    padding: 40px;
 }
 
-.about-the-camp h1 {
+.headline-about-camp h1 {
     text-align: center;
     font-size: 120px;
-    letter-spacing: -5px;
+    letter-spacing: -0.06em;
+    font-weight: 500;
 }
 
 .text-center {
     color: #7a7a7a;
     font-size: 18px;
     text-align: center;
+    line-height: 1.2;
+    font-weight: 400;
+
+}
+
+.main-camp {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .main-about-camp-text {
+    width: 80%;
     letter-spacing: -0.05em;
-    font-size: 50px;
-    text-align: left;
+    font-size: 60px;
+    font-weight: 500;
+    text-indent: 500px;
 }
 
-
-.main-about-camp {
-    padding: 0 40px 20px 40px;
-    gap: 20px;
+@media screen and (max-width: 1280px) {
+    .main-about-camp-text {
+        text-indent: 0;
+    }
 }
 
 
@@ -61,17 +73,16 @@ body {
     max-width: 700px;
     display: flex;
     align-items: center;
-    gap: 70px;
+    gap: 10px;
+    opacity: 0.8;
 }
 
 .about-camp-protection {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 10px;
-}
-
-.main-about-camp-text-start {
-    margin-left: 400px;
 }
 
 .about-camp-protection h3, .about-camp-agency {
@@ -82,10 +93,9 @@ body {
     max-width: 700px;
 }
 
-.column1, .column2 {
-    display: flex;
-    max-width: 300px;
+.column {
     font-size: 16px;
+    line-height: 1.2;
     text-align: justify;
 }
 
@@ -93,11 +103,6 @@ body {
     font-size: 50px;
     margin: auto;
     min-width: 700px;
-}
-
-.about-camp-agency-details {
-    max-width: 300px;
-    margin: 20px 0 20px 0;
 }
 
 
@@ -121,14 +126,39 @@ body {
     display: flex;
 }
 
-.image1-abuout-camp {
-    position: absolute;
-    height: 300px;
-    margin-left: -310px;
+.about-agency {
+    max-width: 1180px;
+    display: grid;
+    grid-template-columns: repeat(3, 350px) 130px;
+    grid-template-rows: 120px 100px repeat(2, 68px) 95px;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    justify-content: center;
 }
 
-.image2-about-camp {
-    position: absolute;
-    height: 180px;
-    margin-left: 300px;
+.about-agency h2 {
+    grid-area: 1 / 2 / 2 / 6;
+    font-size: 60px;
+    letter-spacing: -0.05em;
+    font-weight: 500;
+}
+
+#about-agency-image-1 {
+    grid-area: 2 / 1 / 6 / 2;
+}
+
+.about-camp-protection-information h3 {
+    grid-area: 2 / 2 / 3 / 5;
+}
+
+#about-agency-image-2 {
+    grid-area: 3 / 3 / 6 / 4;
+}
+
+.about-agency p {
+    grid-area: 3 / 2 / 5 / 3;
+}
+
+.button {
+    grid-area: 5 / 2 / 6 / 3;
 }
