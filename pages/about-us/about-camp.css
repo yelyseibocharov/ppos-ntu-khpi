@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ecedf2;
+    color: #28373a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.containers{
+    min-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.about-the-camp, .main-about-camp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 95%;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.about-the-camp h1 {
+    text-align: center;
+    font-size: 120px;
+    letter-spacing: -5px;
+}
+
+.text-center {
+    color: #7a7a7a;
+    font-size: 18px;
+    text-align: center;
+}
+
+.main-about-camp-text {
+    letter-spacing: -5%;
+    font-size: 50px;
+    text-align: left;
+}
+
+
+.main-about-camp {
+    padding: 0 40px 20px 40px ;
+    gap: 20px;
+}
+
+
+.about-camp-protection-information {
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.main-about-camp-text-start {
+margin-left:400px ;
+}
+
+.about-camp-protection h3, .about-camp-agency {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+max-width: 700px;
+}
+
+.column1, .column2 {
+    display: flex;
+    max-width: 300px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.agency-about-camp{
+    font-size: 50px;
+    margin: auto;
+    min-width: 700px;
+}
+
+.about-camp-agency-details{
+    max-width: 300px;
+    margin: 20px 0px 20px 0px;
+}
+
+
+
+.btn {
+  width: 10em;
+  height: 3em;
+  background-color: #584974;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 35px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #4c4065;
+}
+
+.photo-about-camp{
+    display: flex;
+}
+.image1-abuout-camp {
+    position: absolute;
+  height: 300px;
+margin-left: -310px;
+}
+
+.image2-about-camp {
+   position: absolute;
+  height: 180px;
+  margin-left: 300px;
+}
