@@ -1,20 +1,19 @@
 .violet-box {
   width: 95%;
-  margin: auto;
-
+  margin: 0 auto;
   padding: 40px;
   background-color: #584974;
   border-radius: 10px;
 }
 .advantages-union {
+  margin: 0 auto 40px auto;
   max-width: 550px;
-  margin: auto;
+  text-align: center;
   font-weight: 500;
   font-size: 60px;
   line-height: 1;
   letter-spacing: -0.05em;
   color: #fff;
-  margin-bottom: 40px;
 }
 .unions-item {
   width: 350px;

@@ -6,7 +6,7 @@ body {
   background-color: #ecedf2;
 }
 
-.text-box {
+.text-box-container {
   background-color: #ffff;
   border-radius: 10px;
   width: 95%;
