@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ecedf2;
+    color: #28373a;
+}
+
+main {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+  
+.headline-ICSIT,
+.trade-union-committee{
+    background-color: white;
+    width: 95%;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.headline-ICSIT{
+    display: block;
+    padding: 30px 0 20px 0;
+}
+
+
+.headline-ICSIT h1{
+    font-size: 100px;
+    text-align: center;
+}
+
+.trade-union-committee h2{
+    font-size: 50px;
+}
+
+.trade-union-committee-information{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+}
+
+.lider-union-committee{
+    color: #584974;
+    font-size: 25px;
+}
+
+
+.photo-lider-union-committee{
+    border-radius: 10px;
+    align-items: left;
+}
+ 
+
+.trade-union-committee-information p{
+    width: 50%;
+}
+
+.trade-unionists {
+    display: flex;
+    width: 95%;
+    background-color: #ecedf2;
+    padding: 15px;
+    border-radius: 10px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.name-members-committee{
+    font-size: 25px;
+}
+
+.group-members-committee{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
