@@ -129,11 +129,11 @@ main {
     border: solid #ECEDF2;
 }
 
-.number{
+.direction-item-number{
     font-size: 120px;
     font-weight: bold;
 }
-.text {
+.direction-item-text {
     color: #000000;
     padding: 15px;
     border-radius: 10px;
