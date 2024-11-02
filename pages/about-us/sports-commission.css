@@ -70,10 +70,6 @@ main {
     gap: 10px;
 }
 
-.about-the-team-head {
-    width: 80%;
-}
-
 .team-head-photo {
     max-width: 710px;
     max-height: 480px;
