@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ecedf2;
+    color: #28373a;
+}
+
+main {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.student-palace-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.student-palace {
+    min-height: 290px;
+}
+
+.student-palace,
+.container2-student-palace {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+width: 95%;
+    border-radius: 10px;
+}
+
+.student-palace h1 {
+    font-size: 118px;
+    font-weight: 500;
+    letter-spacing: -0.06em;
+}
+
+.student-palace-slogan {
+    max-width: 500px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.container2-student-palace h2 {
+    max-width: 830px;
+    font-size: 60px;
+    font-weight: 500;
+    letter-spacing: -0.05em;
+}
+
+.container2-student-palace {
+    padding: 40px;
+    gap: 10px;
+}
+
+.container2-student {
+    align-items: flex-start;
+    width: 95%;
+}
+
+.container2-student-palace h3 {
+    font-size: 30px;
+    font-weight: 500;
+    text-indent: min(30%, 40rem);
+    max-width: 75%;
+    align-self: flex-start;
+}
+
+.agency-student-palace {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.student-palace-description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 710px;
+    justify-content: center;
+    align-items: center;
+}
+
+.student-palace-description h5 {
+    font-size: 18px;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    font-weight: 500;
+}
+
+.palace-description-text {
+    display: flex;
+    gap: 40px;
+}
+
+.palace-description-details {
+    display: flex;
+    opacity: 0.8;
+}
+
+.student-palace-description h2 {
+    margin: 30px 0 30px 0;
+}
+
+.button {
+    width: 190px;
+    height: 40px;
+    background-color: #584974;
+    color: #ffffff;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 35px;
+}
+
+.button:hover {
+    background-color: #4c4065;
+}
+
+.student-palace-collectives {
+    width: 100%;
+    padding-top: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.image2-student-palace {
+    position: relative;
+
+}
+
+.student-palace-collectives p {
+    max-width: 350px;
+
+}
+
+.collectives-to-the-collectives {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.container2-student-palace img {
+    max-width: clamp(100px, 100%, 300px);
+}
+
+@media (max-width: 1440px) {
+    .student-palace-collectives {
+        flex-direction: column;
+    }
+}
