@@ -141,7 +141,9 @@ body {
 .photo_4_atmosphere,
 .photo_5_atmosphere,
 .photo_6_atmosphere,
-.photo_7_atmosphere {
+.photo_7_atmosphere,
+.photo_8_atmosphere,
+.photo_9_atmosphere {
     display: block;
     object-fit: cover;
     border-radius: 10px;
@@ -190,13 +192,19 @@ body {
     margin-top: 2em;
 }
 
+.photo_8_atmosphere {
+    width: 500px;
+    height: 300px;
+    margin-top: 6em;
+}
+
 
 .them {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-self: center;
-    padding: 20px 0 0 0;
+    padding: 20px 0 50px 0;
     gap: 20px;
 }
 
@@ -261,6 +269,7 @@ body {
     overflow: hidden;
     padding: 20px;
     border-radius: 10px;
+    max-width: 400px;
 }
 
 .photo_carousel {
@@ -293,6 +302,7 @@ body {
     height: 70px;
     overflow: hidden;
     border-radius: 0;
+    max-width: 350px;
 }
 
 button.prev,
