@@ -116,7 +116,8 @@ main {
 .item {
     display: flex;
     width: 49%;
-    height: 20%;
+    min-width: 400px;
+    min-height: 20%;
     background-color: #ffffff;
     padding: 25px;
     border-radius: 10px;
