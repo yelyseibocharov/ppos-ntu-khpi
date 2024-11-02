@@ -1,0 +1,83 @@
+:root {
+    --main-bg-color: #584974;
+    --main-text-color: #28373a;
+    --hover-text-color: #ecedf2;
+    --font-family: "Inter";
+    --header-height: 60px;
+    --border-radius: 10px;
+    --transition-duration: 0.1s;
+    --padding: 40px;
+    --gap: 24px;
+    --font-size: 14px;
+    --letter-spacing: -0.05em;
+    --line-height: 1.0;
+    --font-weight: 400;
+    --opacity: 0.6;
+    --img-size: 100px;
+    --column-gap: 200px;
+    --row-gap: 50px;
+    --link-font-size: 24px;
+    --link-gap: 10px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family), sans-serif;
+}
+
+html {
+    background-color: #ECEDF2;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 45px 0 45px;
+    padding: 40px;
+    background-color: white;
+    border-radius: var(--border-radius);
+}
+
+.headline--to-student {
+    font-size: 60px;
+    letter-spacing: var(--letter-spacing);
+    line-height: var(--line-height);
+    color: var(--main-text-color);
+}
+
+.news-content--to-student {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.author-date--to-student {
+    max-width: 710px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    opacity: 0.6;
+    font-size: 14px;
+    letter-spacing: var(--letter-spacing);
+    line-height: var(--line-height);
+    color: #000;
+}
+
+a {
+    text-decoration: underline;
+    color: #000;
+}
+
+img {
+    border-radius: var(--border-radius);
+}
+
+.image-headline--to-student {
+    max-width: 710px;
+    max-height: 510px;
+}
