@@ -126,10 +126,11 @@ main {
     border: solid #ECEDF2;
 }
 
-.direction-item-number{
+.direction-item-number {
     font-size: 120px;
     font-weight: bold;
 }
+
 .direction-item-text {
     color: #000000;
     padding: 15px;
@@ -141,7 +142,7 @@ main {
 .item:nth-child(4),
 .item:nth-child(5),
 .item:nth-child(8) {
-    background-color: #ECEDF2; 
+    background-color: #ECEDF2;
 }
 
 
@@ -151,6 +152,7 @@ main {
 }
 
 
-.call-to-involved{
+.call-to-involved {
     color: #584974;
+    font-weight: 500;
 }

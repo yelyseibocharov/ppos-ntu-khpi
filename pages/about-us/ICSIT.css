@@ -18,9 +18,9 @@ main {
     align-items: center;
     justify-content: center;
 }
-  
+
 .headline-ICSIT,
-.trade-union-committee{
+.trade-union-committee {
     background-color: white;
     width: 95%;
     border-radius: 10px;
@@ -33,41 +33,41 @@ main {
 }
 
 
-.headline-ICSIT{
+.headline-ICSIT {
     display: block;
     padding: 30px 0 20px 0;
 }
 
 
-.headline-ICSIT h1{
+.headline-ICSIT h1 {
     font-size: 100px;
     text-align: center;
 }
 
-.trade-union-committee h2{
+.trade-union-committee h2 {
     font-size: 50px;
 }
 
-.trade-union-committee-information{
+.trade-union-committee-information {
     display: flex;
     flex-direction: column;
     width: 50%;
     gap: 10px;
 }
 
-.lider-union-committee{
+.leader-union-committee {
     color: #584974;
     font-size: 25px;
 }
 
 
-.photo-lider-union-committee{
+.photo-leader-union-committee {
     border-radius: 10px;
     align-items: left;
 }
- 
 
-.trade-union-committee-information p{
+
+.trade-union-committee-information p {
     width: 50%;
 }
 
@@ -81,11 +81,11 @@ main {
     flex-direction: row;
 }
 
-.name-members-committee{
+.name-members-committee {
     font-size: 25px;
 }
 
-.group-members-committee{
+.group-members-committee {
     display: flex;
     align-items: center;
     font-size: 20px;
