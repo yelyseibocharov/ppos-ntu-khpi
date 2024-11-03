@@ -80,6 +80,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px;
 }
 
 .team-head h2 {
@@ -94,7 +95,7 @@ main {
 
 .directions h2 {
     font-size: 50px;
-    text-align: center;
+
 }
 
 .directions {
@@ -102,6 +103,10 @@ main {
     flex-direction: column;
     padding: 20px;
     gap: 25px;
+}
+
+.general-description-commission{
+    width: 40%;
 }
 
 .directions-list {
