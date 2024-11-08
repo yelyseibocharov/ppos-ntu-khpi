@@ -23,6 +23,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 50px;
 }
 
 .headline-about-camp, .main-about-camp {
@@ -107,8 +108,11 @@ main {
 
 
 .button {
-    width: 10em;
-    height: 3em;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #584974;
     color: #ffffff;
     font-size: 16px;
@@ -127,38 +131,73 @@ main {
 }
 
 .about-agency {
-    max-width: 1180px;
+    width: 100%;
+}
+
+.about-agency-grid {
+    max-width: 1280px;
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 350px) 130px;
+    grid-template-columns: repeat(3, 350px) 160px;
     grid-template-rows: 120px 100px repeat(2, 68px) 95px;
     grid-column-gap: 10px;
     grid-row-gap: 20px;
     justify-content: center;
 }
 
-.about-agency h2 {
+.about-agency-grid h2 {
     grid-area: 1 / 2 / 2 / 6;
     font-size: 60px;
     letter-spacing: -0.05em;
     font-weight: 500;
+    line-height: 1.0;
 }
 
 #about-agency-image-1 {
-    grid-area: 2 / 1 / 6 / 2;
+    grid-area: 3 / 3 / 6 / 4;
+
+    max-width: 350px;
+    width: 100%;
+    max-height: 230px;
+    height: 100%;
 }
 
-.about-camp-protection-information h3 {
-    grid-area: 2 / 2 / 3 / 5;
+.about-agency-grid h3 {
+    grid-area: 2 / 2 / 2 / 4;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
 }
 
 #about-agency-image-2 {
-    grid-area: 3 / 3 / 6 / 4;
+    grid-area: 2 / 1 / 6 / 2;
+    max-width: 350px;
+    width: 100%;
+    max-height: 350px;
+    height: 100%;
 }
 
-.about-agency p {
+.about-agency-grid p {
     grid-area: 3 / 2 / 5 / 3;
 }
 
 .button {
     grid-area: 5 / 2 / 6 / 3;
+}
+
+@media screen and (max-width: 1280px) {
+    .about-agency-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-agency-grid > *:not(.button) {
+        width: 60%;
+    }
+    .main-about-camp-text {
+        width: 100%;
+    }
 }
