@@ -87,7 +87,6 @@ main {
 
 .trade-unionists {
     display: flex;
-    width: 95%;
     background-color: #ecedf2;
     padding: 30px 40px;
     border-radius: 10px;
@@ -105,7 +104,7 @@ main {
     font-size: 24px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1280px) {
     .trade-union-committee-information {
         width: 100%;
     }
