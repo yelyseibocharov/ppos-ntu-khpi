@@ -1,24 +1,19 @@
 * {
-  margin: 0;
-  font-family: "Inter", sans-serif;
+    margin: 0;
+    font-family: "Inter", sans-serif;
 }
+
 body {
-  background-color: #ecedf2;
+    background-color: #ecedf2;
+    padding: 45px;
 }
 
-.text-box-container {
-  background-color: #ffff;
-  border-radius: 10px;
-  width: 95%;
-  padding: 20px 0;
-
-  margin: auto;
-}
 img {
-  display: block;
+    display: block;
 }
+
 ul,
 a {
-  text-decoration: none;
-  list-style-type: none;
+    text-decoration: none;
+    list-style-type: none;
 }
