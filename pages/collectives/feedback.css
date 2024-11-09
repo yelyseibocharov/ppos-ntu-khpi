@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback {
+    width: 100%;
+    height: 240px;
+    border-radius: 10px;
+    display: flex;
+    padding: 45px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.feedback__follow {
+    background-color: #584974;
+
+}
+
+.feedback__follow, .feedback__join {
+    width: 100%;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.feedback__follow h2 {
+    color: #ecedf2;
+    font-size: 100px;
+    font-weight: 500;
+}
+
+.feedback__sns {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.feedback__sns_a {
+    text-decoration: none;
+}
+
+.feedback__join {
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.feedback__join h2 {
+    color: #28373a;
+    font-size: 110px;
+    font-weight: 500;
+    letter-spacing: -0.05em;
+    line-height: 1.0;
+}
+
+.feedback__form_link {
+  padding: 10px 30px;
+  border-radius: 50px;
+  background-color: #584974;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media (max-width: 1280px) {
+    .feedback {
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .feedback__follow,
+    .feedback__join {
+        width: 100%;
+        justify-content: center;
+
+    }
+
+    .feedback__follow h2,
+    .feedback__join h2 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 760px) {
+    .feedback__follow h2,
+    .feedback__join h2 {
+        font-size: 90px;
+    }
+}
+
+@media (max-width: 680px) {
+    .feedback__follow h2,
+    .feedback__join h2 {
+        font-size: 70px;
+        width: 100%;
+
+
+    }
+}
+
+@media (max-width: 460px) {
+    .feedback__follow h2,
+    .feedback__join h2 {
+        font-size: 50px;
+    }
+
+    .feedback {
+        width: calc(100% - 40px);
+
+    }
+}

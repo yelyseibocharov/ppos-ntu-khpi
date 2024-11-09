@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ecedf2;
+    color: #28373a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sports-commission {
+    padding: 85px 0 35px 0;
+}
+
+.team-head {
+    padding: 70px 0 90px 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.sports-commission,
+.team-head,
+.directions,
+.involvement-in-commission {
+    background-color: white;
+    width: 95%;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sports-commission h2 {
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content-sport-commission {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-commission {
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: -0.05em;
+    font-weight: 500;
+    max-width: 500px;
+}
+
+.content-team-head {
+    text-align: left;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.team-head-photo {
+    max-width: 710px;
+    max-height: 480px;
+    border-radius: 10px;
+}
+
+.team-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.team-head h2 {
+    font-size: 50px;
+    text-align: left;
+}
+
+.team-head h6 {
+    color: #584974;
+    font-size: 25px;
+}
+
+.directions h2 {
+    font-size: 50px;
+
+}
+
+.directions {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 25px;
+}
+
+.general-description-commission {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.directions-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    min-width: 400px;
+    max-width: 640px;
+    height: 200px;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 20px;
+    align-items: center;
+    border: solid #ECEDF2;
+}
+
+.direction-item-number {
+    font-size: 120px;
+    font-weight: bold;
+}
+
+.direction-item-text {
+    color: #000000;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.item:nth-child(1),
+.item:nth-child(4),
+.item:nth-child(5),
+.item:nth-child(8) {
+    background-color: #ECEDF2;
+}
+
+
+.call-to-involved {
+    max-width: 90%;
+    color: #584974;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 1.2;
+    letter-spacing: -0.05em;
+    text-align: center;
+}
+
+@media screen and (max-width: 1280px) {
+    .item {
+
+        max-width: 100%;
+    }
+}

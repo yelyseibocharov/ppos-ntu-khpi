@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 45px;
+}
+
+.violet-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    background-color: #584974;
+    border-radius: 10px;
+}
+
+.advantages-union {
+    max-width: 550px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    color: #fff;
+}
+
+.unions-item {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.unions-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+    .unions-list {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.unions-titles {
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    color: #fff;
+}
+
+.unions-paragraph {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.unions-svg-container {
+    display: flex;
+    height: 40px;
+    align-items: baseline;
+    gap: 10px;
+    justify-items: center;
+}

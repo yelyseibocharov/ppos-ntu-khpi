@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ecedf2;
+    color: #28373a;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.main-about-camp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.headline-about-camp, .main-about-camp {
+    background-color: white;
+    width: 95%;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.headline-about-camp h1 {
+    text-align: center;
+    font-size: 120px;
+    letter-spacing: -0.06em;
+    font-weight: 500;
+}
+
+.text-center {
+    color: #7a7a7a;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 400;
+
+}
+
+.main-camp {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-about-camp-text {
+    width: 80%;
+    letter-spacing: -0.05em;
+    font-size: 60px;
+    font-weight: 500;
+    text-indent: 500px;
+}
+
+@media screen and (max-width: 1280px) {
+    .main-about-camp-text {
+        text-indent: 0;
+    }
+}
+
+
+.about-camp-protection-information {
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    opacity: 0.8;
+}
+
+.about-camp-protection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.about-camp-protection h3, .about-camp-agency {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    max-width: 700px;
+}
+
+.column {
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: justify;
+}
+
+.agency-about-camp {
+    font-size: 50px;
+    margin: auto;
+    min-width: 700px;
+}
+
+
+.button {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #584974;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 35px;
+    border: none;
+}
+
+.button:hover {
+    background-color: #4c4065;
+}
+
+.photo-about-camp {
+    display: flex;
+}
+
+.about-agency {
+    width: 100%;
+}
+
+.about-agency-grid {
+    max-width: 1280px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 350px) 160px;
+    grid-template-rows: 120px 100px repeat(2, 68px) 95px;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    justify-content: center;
+}
+
+.about-agency-grid h2 {
+    grid-area: 1 / 2 / 2 / 6;
+    font-size: 60px;
+    letter-spacing: -0.05em;
+    font-weight: 500;
+    line-height: 1.0;
+}
+
+#about-agency-image-1 {
+    grid-area: 3 / 3 / 6 / 4;
+
+    max-width: 350px;
+    width: 100%;
+    max-height: 230px;
+    height: 100%;
+}
+
+.about-agency-grid h3 {
+    grid-area: 2 / 2 / 2 / 4;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+}
+
+#about-agency-image-2 {
+    grid-area: 2 / 1 / 6 / 2;
+    max-width: 350px;
+    width: 100%;
+    max-height: 350px;
+    height: 100%;
+}
+
+.about-agency-grid p {
+    grid-area: 3 / 2 / 5 / 3;
+}
+
+.button {
+    grid-area: 5 / 2 / 6 / 3;
+}
+
+@media screen and (max-width: 1280px) {
+    .about-agency-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-agency-grid > *:not(.button) {
+        width: 60%;
+    }
+    .main-about-camp-text {
+        width: 100%;
+    }
+}

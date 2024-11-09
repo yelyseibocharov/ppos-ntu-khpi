@@ -1,0 +1,126 @@
+:root {
+    --news-primary: #584974;
+    --news-secondary: #ecedf2;
+    --news-text-color: #28373a;
+    --border-radius: 10px;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: var(--news-secondary);
+}
+
+body {
+    margin: 90px 45px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    border-radius: var(--border-radius);
+}
+
+.headline-block--news {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    column-gap: 20px;
+    max-width: 530px;
+    max-height: 205px;
+    text-align: center;
+    color: var(--news-text-color);
+}
+
+.headline-text--news {
+    font-size: 118px;
+}
+
+.subheadline-text--news {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container--news {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.filter--news {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--news-secondary);
+    width: fit-content;
+    border-radius: var(--border-radius);
+    gap: 0;
+}
+
+.filter--news button {
+  color: var(--news-text-color);
+  padding: 20px 52px;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background-color 0.25s ease-in-out;
+}
+
+
+.filter--news button.selected {
+    background-color: var(--news-primary);
+    color: var(--news-secondary);
+    transition: background-color 0.25s ease-in-out;
+}
+
+.pagination--news {
+    max-width: 440px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.pagination--news button {
+    background-color: var(--news-secondary);
+    border-radius: var(--border-radius);
+    color: var(--news-primary);
+    border: 0;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.pagination-prev--news {
+    text-align: left;
+    padding-left: 8px;
+}
+
+.pagination-prev--news,
+.pagination-next--news {
+    width: 80px;
+    height: 40px;
+}
+
+.pagination-next--news {
+    text-align: right;
+    padding-right: 8px;
+}
+
+.pagination-next--news svg {
+    transform: rotate(180deg);
+}
+
+.pagination-page--news {
+    width: 40px;
+}
+
+.pagination-page--news.active {
+    background-color: var(--news-primary);
+    color: var(--news-secondary);
+}
